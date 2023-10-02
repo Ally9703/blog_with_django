@@ -1,0 +1,25 @@
+<thtml lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block titre%}{%endblock%}</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="{%url 'home'%}">Accueil</a>
+        </li>
+        <li>
+            <a href="{%url 'article'%}">Articles</a>
+        </li>
+        <li>
+            <a href="{%url 'contact'%}">Contact</a>
+        </li>
+    </ul>
+    
+    {%block contenu%} {%endblock%}
+    
+
+</body>
+</html>
+
